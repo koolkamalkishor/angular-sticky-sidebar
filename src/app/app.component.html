@@ -1,0 +1,21 @@
+<div class="checkout">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Checkout</h2>
+        </div>
+      </div>
+      <div class="row checkout__container">
+        <div class="col-lg-8 checkout__main">
+          <div class="inner">Main Content</div>
+        </div>
+        <div class="col-lg-4 checkout__sidebar">
+          <div id="sticky-start"></div>
+          <div class="inner" [isMobile]="false" [stickyStartId]="'sticky-start'" [stickyClass]="'sticky'" [ieOnly]="false">Sidebar Content</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="sticky-bottom"></div>
+</div>
